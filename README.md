@@ -1,4 +1,10 @@
 # Dragon_Radar
+![IMG_3229](https://user-images.githubusercontent.com/20789521/164945445-82317aa2-78c1-4aea-85a2-02f22fd8e3a4.jpg)
+![IMG_3230](https://user-images.githubusercontent.com/20789521/164945482-87e533ef-39e2-4335-a948-516c12aa0bea.jpg)
+![IMG_3232](https://user-images.githubusercontent.com/20789521/164945595-0f17c559-471e-43f2-aec0-1fa2adbc120c.JPG)
+![IMG_3231](https://user-images.githubusercontent.com/20789521/164945603-dbbde5a3-aa84-41df-b509-c91015d5aa98.JPG)
+
+
 - By pressing and holding the button, 7 (virtual) Dragon Balls will be scattered to "a random latitude and longitude within a radius of 480 meters from the current location".
 - The Dragon Balls are not real, but only visible on the Dragon Radar.
 - The location of the Dragon Ball is constantly updated on the radar screen, centered on the current location.
