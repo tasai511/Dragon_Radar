@@ -1,5 +1,5 @@
 # Dragon_Radar
-<img src="https://user-images.githubusercontent.com/20789521/164951653-b47f373e-c136-4681-bdfb-4e81c3104c49.png" alt="Picture" title="Picture" width="420" height="200">
+<img src="https://user-images.githubusercontent.com/20789521/164951653-b47f373e-c136-4681-bdfb-4e81c3104c49.png" alt="Picture" title="Picture" width="430" height="200">
 
 ## How it works.
 - By pressing and holding the button, 7 (virtual) Dragon Balls will be scattered to "a random latitude and longitude within a radius of 480 meters from the current location".
