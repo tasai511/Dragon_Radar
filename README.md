@@ -72,7 +72,6 @@ Stack modules as follows.
 //------------------------
 //   Customize Settings
 //------------------------
-
 #define BK_Fill 0x0ac4
 #define BK_RED 0xa065
 #define BK_ORANGE 0xbae1
