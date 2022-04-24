@@ -29,6 +29,8 @@ In addition, shuffling and resetting will send you to "a radius of 480 meters ar
 In this way, the game is designed to provide a challenging and mysterious adventure experience.
 
 ## Parts List
+All required components are commercially available modules, so there is no need for surface mounting or other complicated work.
+
 - **ESP8266 WeMos D1 Mini Module**
 https://a.aliexpress.com/_mqn7YlC
 - **Battery Shield V1.2.0 For WEMOS D1 mini**
@@ -51,17 +53,18 @@ You can use .stl to 3D printing the case and "PCB v41_2022-03-20.zip" to order c
 ![Picture3](https://user-images.githubusercontent.com/20789521/164953706-4251f759-076a-4513-b543-43b20b9915b6.png)
 
 ## Assembly
-Stack parts as following.
+Stack modules as following.
 
     Top: 
-        ---- GC9A01 ----
-                 -- GY-511
+       ---- GC9A01 ----
+         -- GY-511 --
       ---- Custom PCB ----
-      --- Battery Shield ---
-      --- Wemos D1 Mini ---
-      --- NEO-6M ---
-        -- LiPo Battery
+      --- Bat. Shield ---
+      ----- D1 Mini -----
+        --- NEO-6M ---
+          -- LiPo --
     Bottom:
- 
 
+## Circuit Diagram
+<img src="https://user-images.githubusercontent.com/20789521/164956541-ea336510-6122-4e24-b0d0-81ad30a37c85.png)" alt="Diagram" title="Circuit Diagram" width="300">
 
