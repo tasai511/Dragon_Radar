@@ -41,5 +41,17 @@ https://a.aliexpress.com/_mqn7YlC
 https://ja.aliexpress.com/i/32700849891.html
 - **LiPo Battery 300mAh**
 https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG
+- **Small push button switch**
+https://akizukidenshi.com/catalog/g/gP-04368/
+
+## Case
+You can use .stl to 3D printing the case.
+![Picture2](https://user-images.githubusercontent.com/20789521/164953564-5a00600a-5fbc-4e1b-80e4-5dfe513fb888.png)
+
+# PCB
+You can use "PCB v41_2022-03-20.zip" to order Fusion PCB.
+https://www.seeedstudio.com/fusion_pcb.html
+
+
 
 
