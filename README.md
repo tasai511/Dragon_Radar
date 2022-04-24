@@ -68,7 +68,20 @@ Stack modules as follows.
 ## Customize
 - You can change "Customize Settings" on the code to customize the color and difficulty of the game (ex. max number of "Shuffle").
 
-    test
+'''
+//------------------------
+//   Customize Settings
+//------------------------
+#define BK_Fill 0x0ac4
+#define BK_RED 0xa065
+#define BK_ORANGE 0xbae1
+#define BK_GREEN 0x0962
+const char max_shuffle = 7;       //Max number of "Shuffle"
+const int dist_range = 480;       //Max distance of random Dragon Ball allocation (M)
+const int scope = 40;             //Display range of "Zoom" mode (M)
+const int sleep_timer = 20000;    //Idle timer to sleep (msec)
+const int get_range = 5;          //Distance to get Dragon Ball (M)
+'''
 
 # Enjoy!!
 please feel free to add comments if you have any questions. (Japanese & English)
