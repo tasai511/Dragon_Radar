@@ -68,6 +68,7 @@ Stack modules as follows.
 ## Customize
 - You can change "Customize Settings" on the code to customize the color and difficulty of the game (ex. max number of "Shuffle").
 
+    
     //------------------------
     //   Customize Settings
     //------------------------
@@ -80,7 +81,7 @@ Stack modules as follows.
     const int scope = 40;             //Display range of "Zoom" mode (M)
     const int sleep_timer = 20000;    //Idle timer to sleep (msec)
     const int get_range = 5;          //Distance to get Dragon Ball (M)
-
+    
 
 # Enjoy!!
 please feel free to add comments if you have any questions. (Japanese & English)
