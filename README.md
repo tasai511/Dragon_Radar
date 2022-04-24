@@ -60,3 +60,6 @@ Stack modules as following.
 ## Circuit Diagram
 <img src="https://user-images.githubusercontent.com/20789521/164956541-ea336510-6122-4e24-b0d0-81ad30a37c85.png" alt="Diagram" title="Circuit Diagram" width="300">
 
+## Writing
+- [Important] Need to disconnect NEO-6M before start uploading from Arduino IDE since it's connected to TXD/RXD pin conflicting with USB Serial.
+- That's why NEO-6M should not be directly sordered on custom PCB. (use pin socket)
