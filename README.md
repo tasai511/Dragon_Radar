@@ -64,6 +64,7 @@ Stack modules as following.
         --- NEO-6M ---
           -- LiPo --
     Bottom:
+<img src="https://user-images.githubusercontent.com/20789521/164956945-5437594a-7661-485d-b8d0-df116ebcbd65.png" alt="Diagram" title="Circuit Diagram" width="300">
 
 ## Circuit Diagram
 <img src="https://user-images.githubusercontent.com/20789521/164956541-ea336510-6122-4e24-b0d0-81ad30a37c85.png" alt="Diagram" title="Circuit Diagram" width="300">
