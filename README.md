@@ -54,13 +54,13 @@ You can use .stl to 3D printing the case and "PCB v41_2022-03-20.zip" to order c
 Stack parts as following.
 
     Top: 
-     GC9A01
-     GY-511
-     Custom PCB
-     Battery Shield
-     Wemos D1 Mini
-     NEO-6M
-     LiPo Battery
+        ---- GC9A01 ----
+                 -- GY-511
+      ---- Custom PCB ----
+      --- Battery Shield ---
+      --- Wemos D1 Mini ---
+      --- NEO-6M ---
+        -- LiPo Battery
     Bottom:
  
 
