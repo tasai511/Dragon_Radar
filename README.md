@@ -1,6 +1,7 @@
 # Dragon_Radar
 <img src="https://user-images.githubusercontent.com/20789521/164951653-b47f373e-c136-4681-bdfb-4e81c3104c49.png" alt="Picture" title="Picture" width="420" height="200">
 
+## How it works.
 - By pressing and holding the button, 7 (virtual) Dragon Balls will be scattered to "a random latitude and longitude within a radius of 480 meters from the current location".
 - The Dragon Balls are not real, but only visible on the Dragon Radar.
 - The location of the Dragon Ball is constantly updated on the radar screen, centered on the current location.
@@ -26,3 +27,19 @@ In fact, you will have to shuffle and reset quite often, so it is very rare to g
 In addition, shuffling and resetting will send you to "a radius of 480 meters around the place where you did it," so if you repeat it, you may find yourself further and further away from home.
 
 In this way, the game is designed to provide a challenging and mysterious adventure experience.
+
+## Parts List
+- **ESP8266 WeMos D1 Mini Module**
+https://a.aliexpress.com/_mqn7YlC
+- **Battery Shield V1.2.0 For WEMOS D1 mini**
+https://a.aliexpress.com/_mP9hQFM
+- **GC9A01 1.28 Inch Round LCD Module**
+https://a.aliexpress.com/_mONJ6N0
+- **NEO-6M GPS Module with G165 antenna**
+https://a.aliexpress.com/_mqn7YlC
+- **GY-511 LSM303DLHC 3-axis Compass Acceleration Sensor**
+https://ja.aliexpress.com/i/32700849891.html
+- **LiPo Battery 300mAh**
+https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5GHG
+
+
