@@ -46,11 +46,14 @@ https://akizukidenshi.com/catalog/g/gP-04368/
 
 ## Case
 You can use .stl to 3D printing the case.
+
 ![Picture2](https://user-images.githubusercontent.com/20789521/164953564-5a00600a-5fbc-4e1b-80e4-5dfe513fb888.png)
 
 # PCB
-You can use "PCB v41_2022-03-20.zip" to order Fusion PCB.
-https://www.seeedstudio.com/fusion_pcb.html
+You can use "PCB v41_2022-03-20.zip" to order custom PCB. (ex. Fusion PCB)
+
+![Picture3](https://user-images.githubusercontent.com/20789521/164953706-4251f759-076a-4513-b543-43b20b9915b6.png)
+
 
 
 
