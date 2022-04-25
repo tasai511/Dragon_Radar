@@ -63,7 +63,7 @@ Stack modules as follows.
 ## Writing Code
 - **[Important]** Need to disconnect NEO-6M before starting uploading from Arduino IDE since it's connected to TXD/RXD pin conflicting with USB Serial.
 - That's why NEO-6M should not be directly soldered on custom PCB. (use pin socket)
-- It uses LittleFS and needs to upload all images under "data" directy before uploading code. Follow the instruction at https://randomnerdtutorials.com/install-esp8266-nodemcu-littlefs-arduino/.
+- It uses LittleFS and needs to upload all images under "data" directry before uploading code. Follow the instruction at https://randomnerdtutorials.com/install-esp8266-nodemcu-littlefs-arduino/.
 
 ## Customize
 - You can change "Customize Settings" on the code to customize the color and difficulty of the game (ex. max number of "Shuffle").
