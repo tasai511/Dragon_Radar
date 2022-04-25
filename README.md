@@ -64,6 +64,11 @@ Stack modules as follows.
 - **[Important]** Need to disconnect NEO-6M before starting uploading from Arduino IDE since it's connected to TXD/RXD pin conflicting with USB Serial.
 - That's why NEO-6M should not be directly soldered on custom PCB. (use pin socket)
 - It uses LittleFS and needs to upload all images under "data" directry before uploading code. Follow the instruction at https://randomnerdtutorials.com/install-esp8266-nodemcu-littlefs-arduino/.
+- You need to calibrate your GY-511, run "Calibrate" under the "LSM303" example that will be installed with the Library, and put the result to the following location.
+```
+  compass.m_min = (LSM303::vector<int16_t>){  -566,   -625,   -567};   //Put GY-511(LSM303) caliblation result here
+  compass.m_max = (LSM303::vector<int16_t>){  +445,   +505,   +566};   //Put GY-511(LSM303) caliblation result here
+```
 
 ## Customize
 - You can change "Customize Settings" on the code to customize the color and difficulty of the game (ex. max number of "Shuffle").
