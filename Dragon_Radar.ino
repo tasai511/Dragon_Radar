@@ -250,7 +250,7 @@ void Reset() {
 
   randomSeed(millis());
   for (int i=0; i<=6; i++) {
-    DB_x[i] = random(-dist_range, dist_range);
+    DB_x[i] = random(dist_range * -1, dist_range);
     DB_y[i] = random(sqrt(pow(dist_range,2) - pow(DB_x[i],2))*-1, sqrt(pow(dist_range,2) - pow(DB_x[i],2)));
     DB_x[i] = DB_x[i]/length_x*0.00001 + location_lng;
     DB_y[i] = DB_y[i]/length_y*0.00001 + location_lat;
@@ -278,7 +278,7 @@ void Shuffle(int i) {
       delay(400);
     }
     randomSeed(millis());
-    DB_x[i] = random(-dist_range, dist_range);
+    DB_x[i] = random(dist_range * -1, dist_range);
     DB_y[i] = random(sqrt(pow(dist_range,2) - pow(DB_x[i],2))*-1, sqrt(pow(dist_range,2) - pow(DB_x[i],2)));
     DB_x[i] = DB_x[i]/length_x*0.00001 + location_lng;
     DB_y[i] = DB_y[i]/length_y*0.00001 + location_lat;
@@ -351,8 +351,8 @@ void setup() {
 }
 
 void loop() {
-  float location_lng = gps.location.lng();    //comment out for Demo Mode
-  float location_lat = gps.location.lat();    //comment out for Demo Mode
+  location_lng = gps.location.lng();    //comment out for Demo Mode
+  location_lat = gps.location.lat();    //comment out for Demo Mode
   
   compass.read();
   float heading_tmp = compass.heading();
@@ -476,7 +476,7 @@ void loop() {
 // -----Demo Mode-----
 // For demo or debug purpose, your current location is gradually updated toward the nearest drangon ball.
 // Need to set Home Position manually at "Customize Settings" and disable update from GPS at top of "void loop()".
-
+//
 //  if ((DB_x[nearest_DB] - location_lng) > 0) {
 //    location_lng = location_lng + 0.00001;
 //  } else {
